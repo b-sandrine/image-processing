@@ -10,7 +10,7 @@ dim = (width, height)
 resized = cv2.resize(img, dim, interpolation = cv2.INTER_AREA)
 
 # Save resized image
-cv2.imwrite("img/capA1-01.jpg", resized)
+cv2.imwrite("/home/sandrine/Documents/s6_resources/embedded-systems/python-practice/imageProcessingByInstructor/lena_resized.jpg", resized)
 
 print('Resized Dimensions : ',resized.shape)
 cv2.imshow("original image", img)
