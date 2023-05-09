@@ -2,7 +2,7 @@
 import cv2
 
 # read the input image
-img = cv2.imread('/home/sandrine/Documents/s6_resources/embedded-systems/python-practice/imageProcessingByInstructor/billie1.jpg')
+img = cv2.imread('/home/sandrine/Documents/s6_resources/embedded-systems/python-practice/imageProcessingByInstructor/billie4.png')
 
 # convert to grayscale of each frames
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
